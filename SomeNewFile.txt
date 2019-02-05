@@ -1,0 +1,3 @@
+This file has been added in the Mzbranch of my repository
+
+This should not appear in the MASTER (main branch) of my repository
