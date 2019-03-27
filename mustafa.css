@@ -1,18 +1,36 @@
 body { 
     text-align: center;
-    background-color: aqua;
-
-
+    background-color: rgb(0, 218, 84);
+    
 }
+
 head {
     text-align: center;
 }
 
-       
+#myRedDiv {
+    background-color: red;
+    height: 10em;
+    width: 10em;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+#myBlackDiv {
+    background-color:black;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    color:blue;
+    vertical-align:middle;
+    overflow: scroll;
+}
+
         
 
         p {
-            background-color: rgb(8, 15, 1)
+            background-color: rgb(5, 2, 2)
+            tomato
         }
 
         h1 {
@@ -20,7 +38,7 @@ head {
         }
         
         table, th, td {
-          border: 1px solid black;
+          border: 1px solid rgb(156, 4, 4);
           background-color: blueviolet;
          
     
@@ -28,4 +46,14 @@ head {
         a:hover{
             background-color: beige;
         }
+        #thepic {height: 700px;
+        width: 700px }
+     /*   div.absolute {
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 200px;
+            height: 100px;
+            border: 3px solid rgb(173, 7, 7);
+          }*/
         
