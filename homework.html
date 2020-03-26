@@ -1,41 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>home</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="mustafa.css">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+        .navbar-nav.navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+        
+        body {
+            background-color: blue;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>
-        <a href="homework.html">home</a>
-        <a href="homework3.html">contact</a>
-        <a href="womework2.html">about</a>
-        <a href="products.html">products</a>
 
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid text-center">
+            <div class="navbar-header">
 
+            </div>
+            <ul class="nav navbar-nav navbar-center">
+                <li class="active"><a href="homework.html">Home</a></li>
+                <li><a href="womework2.html">about</a></li>
+                <li><a href="womework3.html">contact</a></li>
+                <li><a href="products.html">products</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="text-center">
+        <img src="iraqflag.jpg" class="img-rounded" alt="Cinque Terre" width="404" height="336">
 
-        <a id="FrLink" href="homework11.html">French</a>
-    </h1>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
 
-
-
-
-
-
-
-    <img id="iraq" src="C:\Users\mustafa\Pictures\iraq.jpg" alt="that is my the pic">
-
-
-
-
-
-
-
-
-
-    <p>this is my home page</p>
-
+            welcome to my home page
+        </div>
+    </div>
 </body>
-
-</html>
