@@ -1,6 +1,7 @@
     body {
         text-align: center;
-        background-color: rgb(106, 122, 112);
+        background-color:blue;
+        
     }
     
     head {
@@ -107,14 +108,7 @@
     }
     /* Standard syntax */
     
-    @keyframes drop {
-        from {
-            height: 20px;
-        }
-        to {
-            height: 40px;
-        }
-    }
+    
     
     #EnLink {
         background-color: aqua;
@@ -163,15 +157,7 @@
         animation-iteration-count: infinite;
     }
     
-    @keyframes run {
-        from {
-            right: 0%;
-        }
-        to {
-            right: 100%;
-            margin-right: -200px;
-        }
-    }
+   
     
     #container {
         position: relative;
@@ -195,71 +181,70 @@
         animation-duration: 4s;
         animation-iteration-count: infinite;
     }
-    /* Safari 4.0 - 8.0 */
     
-    @-webkit-keyframes example {
-        0% {
-            background-color: red;
-            left: 0px;
-            top: 0px;
-        }
-        25% {
-            background-color: yellow;
-            left: 200px;
-            top: 0px;
-        }
-        50% {
-            background-color: blue;
-            left: 200px;
-            top: 200px;
-        }
-        75% {
-            background-color: green;
-            left: 0px;
-            top: 200px;
-        }
-        100% {
-            background-color: red;
-            left: 0px;
-            top: 0px;
-        }
-    }
-    /* Standard syntax */
     
-    @keyframes example {
-        0% {
-            background-color: red;
-            left: 0px;
-            top: 0px;
-        }
-        25% {
-            background-color: yellow;
-            left: 200px;
-            top: 0px;
-        }
-        50% {
-            background-color: blue;
-            left: 200px;
-            top: 200px;
-        }
-        75% {
-            background-color: green;
-            left: 0px;
-            top: 200px;
-        }
-        100% {
-            background-color: red;
-            left: 0px;
-            top: 0px;
-        }
+   ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+
+   }
+    li a {
+        
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
     }
-    
-    .navbar-nav.navbar-center {
-        position: absolute;
-        left: 50%;
-        transform: translatex(-50%);
-    }
+   
     
     body {
         background-color: blue;
     }
+    .mainlinks
+    {
+        display: flex;
+
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:white;
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 5;
+        
+        
+    }
+    ul li {
+        padding: 5px;
+        background-color: black;
+        margin: 5px;
+    }
+    .active {
+        background-color:darkred;
+    }
+   .logo { 
+      
+       background: url('madrid.jpg');
+       width: 250px;
+       height:250px ;
+       margin-left: -250px;
+       
+   }
+   li a:hover {
+    background-color: red;
+   }
+   .text-center {
+       top: 250px;
+
+   }
