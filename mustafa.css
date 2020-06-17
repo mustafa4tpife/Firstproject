@@ -152,7 +152,12 @@
     display: flex;
    flex-direction: column;
    align-items: flex-end;
+   
     
+  }
+  .langugeimg {
+    width:70px;
+    height:50px;
   }
   .gamess {
     display: flex;
