@@ -1,36 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
-    <title>contact</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="mustafa.css">
+    <title>my wbsite</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mustafa.css">
 
+    
 </head>
 
-
 <body>
-    <h1>
-        <a href="homework11.html">accueil</a>
-        <a href="homework22.html">environ</a>
-        <a href="homework33.html">contact</a>
-        <a href="products2.html">products</a>
-        <div id="language">
-            <a id="FrLink" href="homework33.html">French</a>
-            <a id="EnLink" href="homework3.html">English</a>
-    </h1>
-    </div>
-    <ul>
-        <li>phone</li>
-        <li>mail</li>
-        <li>post</li>
-    </ul>
-
-
-    <h1>C’est la troisième page</h1>
-
+    <div class="bg"></div>
+    <nav>
+        <a class="lan" href="homework3.html">
+            <img src="languge.jpg" alt="HTML tutorial" style="width:70px;height:50px;">
+          </a>
+        
+        
+            <ul class="mainlinks">
+                <li class="active"><a href="homework11.html">Accueil</a></li>
+                <li><a href="homework22.html">à propos</a></li>
+                <li><a href="homework33.html">Contact</a></li>
+                <li><a href="products2.html">Produits</a></li>
+            </ul>
+        
+    </nav>
+    
+    <div class="form-style-5">
+        <form>
+        <fieldset>
+        <legend><span class="number">1</span> Info Candidat</legend>
+        <input type="text" name="field1" placeholder="Votre Nom *">
+        <input type="email" name="field2" placeholder="Votre Email *">
+        <textarea name="field3" placeholder="A propos de toi"></textarea>
+        <label for="job">Intérêts:</label>
+        <select id="job" name="field4">
+        <optgroup label="À l'intérieur">
+          <option value="pisciculture">pisciculture</option>
+          <option value="lecture à faire">lecture à faire</option>
+          <option value="boxe">boxe</option>
+          <option value="débat">débat</option>
+          <option value="gaming">Gaming</option>
+          <option value="billard">billard</option>
+          <option value="autre_intérieur">autre</option>
+        </optgroup>
+        <optgroup label="En plein air">
+          <option value="football">Football</option>
+          <option value="la natation">la natation</option>
+          <option value="pêche">pêche</option>
+          <option value="escalade">escalade</option>
+          <option value="cyclisme">cyclisme</option>
+          <option value="autre_extérieur">autre</option>
+        </optgroup>
+        </select>      
+        </fieldset>
+        <fieldset>
+        <legend><span class="number">2</span> Information Additionnelle</legend>
+        <textarea name="field3" placeholder="À propos de votre école"></textarea>
+        </fieldset>
+        <input type="submit" value="Appliquer" />
+        </form>
+        </div>
 
 </body>
-
 </html>
